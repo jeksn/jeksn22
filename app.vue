@@ -1,21 +1,21 @@
+<script setup>
+import DarkmodeToggle from "/components/DarkModeToggle.vue";
+</script>
 <script>
-// export default {
-//   methods: {
-//     changeMode() {
-//       this.$colorMode.preference =
-//         this.$colorMode.preference === "light" ? "dark" : "light";
-//     },
-//   },
-// };
+export default {
+  methods: {
+    changeMode() {
+      this.$colorMode.preference =
+        this.$colorMode.preference === "light" ? "dark" : "light";
+    },
+  },
+};
 </script>
 <template class="h-screen w-screen">
   <header class="fixed w-full bg-opacity-90 px-4 md:px-0">
     <div class="max-w-screen-xl mx-auto py-8">
       <a href="/" class="text-lg bg-black py-4 px-8 text-white">jeksn.me</a>
     </div>
-    <!-- <button class="btn border border-white capitalize" @click="changeMode">
-      {{ btnLabel }}
-    </button> -->
   </header>
   <div class="h-screen flex flex-col justify-center px-4 md:px-0">
     <div class="max-w-screen-lg mx-auto">
@@ -40,7 +40,7 @@
             <a
               href="https://twitter.com/jeksn_"
               target="_blank"
-              class="underline underline-offset-2 hover:underline-offset-4 ease-in-out"
+              class="underline underline-offset-2 hover:underline-offset-4"
               >Twitter</a
             >
           </li>
@@ -48,7 +48,7 @@
             <a
               href="https://www.linkedin.com/in/jeksn/"
               target="_blank"
-              class="underline underline-offset-2 hover:underline-offset-4 ease-in-out transition"
+              class="underline underline-offset-2 hover:underline-offset-4"
               >LinkedIn</a
             >
           </li>
@@ -56,7 +56,7 @@
             <a
               href="https://oku.club/user/jek5n"
               target="_blank"
-              class="underline underline-offset-2 hover:underline-offset-4 ease-in-out"
+              class="underline underline-offset-2 hover:underline-offset-4"
               >Oku.club</a
             >
           </li>
@@ -64,7 +64,7 @@
             <a
               href="mailto:johan@jeksn.me"
               target="_blank"
-              class="underline underline-offset-2 hover:underline-offset-4 ease-in-out"
+              class="underline underline-offset-2 hover:underline-offset-4"
               >E-mail me</a
             >
           </li>
@@ -72,6 +72,7 @@
       </div>
     </div>
   </div>
+  <DarkmodeToggle />
 </template>
 <style>
 .dark-mode {
