@@ -41,7 +41,6 @@
         />
       </svg>
     </button>
-
     <button
       v-if="$colorMode.preference === 'light'"
       @click="$colorMode.preference = 'system'"

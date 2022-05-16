@@ -14,17 +14,21 @@ export default {
 <template class="h-screen w-screen">
   <header class="fixed w-full bg-opacity-90 px-4 md:px-0">
     <div class="max-w-screen-xl mx-auto py-8">
-      <a href="/" class="text-lg bg-black py-4 px-8 text-white">jeksn.me</a>
+      <a
+        href="/"
+        class="text-lg bg-black dark:bg-white dark:text-black py-4 px-8 text-white"
+        >jeksn.me</a
+      >
     </div>
   </header>
   <div class="h-screen flex flex-col justify-center px-4 md:px-0">
     <div class="max-w-screen-lg mx-auto">
-      <h2 class="text-6xl font-semibold mt-4">
+      <h2 class="text-4xl md:text-6xl font-semibold mt-4">
         Front-end
         <span class="underline underline-offset-2">developer</span> based in
         <span class="underline underline-offset-2">Stockholm</span>
       </h2>
-      <p class="mt-6 text-2xl max-w-screen-lg">
+      <p class="mt-6 text-lg md:text-2xl max-w-screen-lg">
         I'm a design minded developer currently working at
         <a
           href="https://wtmg.se"
@@ -34,8 +38,8 @@ export default {
         Don't hesitate to get in touch.
       </p>
       <div class="mt-8">
-        <h2 class="text-2xl">Where to find me:</h2>
-        <ul class="text-lg">
+        <h2 class="text-lg md:text-2xl">Where to find me:</h2>
+        <ul class="text-base md:text-lg">
           <li>
             <a
               href="https://twitter.com/jeksn_"
