@@ -13,26 +13,26 @@ export default {
 </script>
 <template>
   <main>
-    <header class="fixed w-full bg-opacity-90 px-4 md:px-0">
-      <div class="max-w-screen-xl mx-auto py-8">
-        <a href="/" class="logo text-lg bg-black py-4 px-8 text-white"
+    <header class="fixed w-full px-4 bg-opacity-90 md:px-0">
+      <div class="max-w-screen-xl py-8 mx-auto">
+        <a href="/" class="px-8 py-4 text-lg text-white bg-black logo"
           >jeksn.me</a
         >
       </div>
     </header>
-    <div class="h-screen flex flex-col justify-center px-4 md:px-0">
+    <div class="flex flex-col justify-center h-screen px-4 md:px-0">
       <div class="max-w-screen-lg mx-auto">
-        <h2 class="text-4xl md:text-6xl font-semibold mt-4">
+        <h2 class="mt-4 text-4xl font-semibold md:text-6xl">
           Front-end
           <span class="underline underline-offset-2">developer</span> based in
           <span class="underline underline-offset-2">Stockholm</span>
         </h2>
-        <p class="mt-6 text-lg md:text-2xl max-w-screen-lg">
+        <p class="max-w-screen-lg mt-6 text-lg md:text-2xl">
           I'm a design minded developer currently working at
           <a
             href="https://wtmg.se"
             class="underline underline-offset-2 hover:underline-offset-4"
-            >WTMG</a
+            >WTMG.</a
           ><br />
           Don't hesitate to get in touch.
         </p>
