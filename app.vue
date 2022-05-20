@@ -3,6 +3,17 @@ import DarkmodeToggle from "/components/DarkModeToggle.vue";
 </script>
 <script>
 export default {
+  head: {
+    title: "jeksn.me | Johan Eriksson",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content: "Home page description",
+      },
+    ],
+    link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
+  },
   methods: {
     changeMode() {
       this.$colorMode.preference =
